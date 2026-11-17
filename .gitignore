@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+# next.js build output
+.next
+out
+
+# env files
+.env*
+!.env.example
+
+# logs & OS files
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# backend local database files & local tool config
+backend/.data
+backend/.claude
